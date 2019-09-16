@@ -1,0 +1,14 @@
+import pandas as pd
+import numpy as np
+
+x = [1.2, 3.4, "sindhu", 5.6]
+x[2] = 9.8
+
+max(x) # function(1) and the output is 9.8
+
+y = ["sindhu", "kats", "sid"]
+max(y) # This function is not applicable for string. It just gives the first index value
+
+z = 8.198456836
+round(z) #function(2) and the output is 8
+round(z, 2) #function(2) and the output is 8.2
